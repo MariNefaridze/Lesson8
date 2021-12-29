@@ -6,10 +6,7 @@ header{
     height: 98px;
     margin:35px 95px 100px 45px;
     background-color: #C6D5FF;
-    box-shadow: #4D4F5C;
-}
-.active{
-    color: #A00000;
+    box-shadow: #000000;
 }
 .logo{
     height: 90px;
@@ -20,23 +17,27 @@ header{
 }
 .navBar{
     float: right;
+    height: 63px;
     background-color: #EBEBEB;
     margin-top: 20px;
     margin-right: 90px;
-    margin-bottom: 100px;
-    box-shadow:#4D4F5C;
+    margin-bottom: 20px;
+    box-shadow:#090a0c;
+}
+.clear{
+    float: both;
 }
 .nav-li{
     display: inline-block;
-    padding:20px 40px;
-    margin-right: 100px;
     font-weight: bold;
+    font-size: 20px;
+    margin-right: 68px;
+}
+a{
+    color: #000000;
 }
 .active{
     color: #A00000;
-}
-.navBar a{
-    color: #000000;
 }
 .cover{
     width: 1200px;
@@ -46,59 +47,67 @@ header{
 .title{
     font-size: 40px;
     font-weight: bold;
-    padding-bottom: 60px;
-}
-.article{
-    padding-left: 50px;
     margin-top: 95px;
-    border-bottom: 1px dotted #CACED5;
+    margin-bottom: 50px;
 }
 .articleImage{
-    height: 520px;
-    width: 870px;
+    width: 560px;
+    height: 450px;
     object-fit: cover;
 }
+.flex{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 80px;
+    border-bottom: 1px dotted #7F8094;
+    
+}
 .articleTitle{
+    font-size:25px;
+    font-weight:bold;
     margin-top: 30px;
-    margin-bottom: 60px;
-    font-size: 25px;
+    margin-right: 100px;
+    line-height: 33px;
     color: #4D4F5C;
 }
 .articleText{
     font-size: 15px;
-    width: 800px;
-    line-height: 17px;
     color: #7C7C91;
+    line-height: 17px;
+    margin-top: 60px;
+    margin-right: 100px;
+    margin-bottom: 35px;
 }
 .readMore{
     color: #FF4141;
-    font-size: 20px;
-    margin-left: 780px;
-    margin-top: 35px;
+    padding-left: 400px;
+    margin-bottom: 35px;
+
 }
-.flex{
-    display: flex;
-}
-.article2{
-    padding-top: 89px;
-    margin-left: 80px;
+.secondDiv{
+    margin-top: 190px;
+    margin-left: 74px;
 }
 .float{
-    margin-top: 117px;
-    width:1820px;
-    margin-left: 50px;
+    margin:117px 62px 150px 50px;
 }
 .floatImage{
+    width: 500px;
+    height: 450px;
+    object-fit: cover;
     float: left;
     margin-right: 20px;
 }
-.float .floatText{
-    width: 900px;
-    height: 997px;
+.floatTitle{
+    font-size:25px;
+    font-weight:bold;
+    color: #4D4F5C;
+}
+.floatText{
     font-size: 15px;
-    line-height: 17px;
     color: #7C7C91;
-    margin-bottom: 150px;
+    line-height: 17px;
+    margin-top: 73px;
 }
 .float::after {
     content: '';
@@ -106,16 +115,17 @@ header{
     clear: both;
 }
 footer{
-    width:1920px;
+    width:1350px;
     background-color: #7F8094;
-    height:117px;
-    margin-left:50px;
+    height:100px;
     margin-top: 150px;
 }
-ul li{
-    float:right;
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding:30px;
 }
-li{
-    padding-top: 35px;
-    margin-right: 25px;
+ul li{
+    margin-left: 20px;
 }

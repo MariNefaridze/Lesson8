@@ -25,9 +25,6 @@ header{
     margin-bottom: 20px;
     
 }
-.clear{
-    float: both;
-}
 .nav-li{
     display: inline-block;
     font-weight: bold;

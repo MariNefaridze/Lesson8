@@ -30,3 +30,38 @@ header{
     padding-left: 50px;
     padding-right: 50px;
 }
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+.article{
+    padding-left: 50px;
+    margin-top: 95px;
+    border-bottom: 1px dotted #CACED5;
+    width: 1820px;
+    height: 2538px;
+}
+.articleImage{
+    height: 520px;
+    width: 870px;
+    object-fit: cover;
+}
+.articleTitle{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 25px;
+    color: #4D4F5C;
+}
+.articleText{
+    font-size: 15px;
+    width: 800px;
+    line-height: 17px;
+    color: #7C7C91;
+}
+.readMore{
+    color: #FF4141;
+    font-size: 20px;
+    margin-left: 780px;
+    margin-top: 35px;
+}

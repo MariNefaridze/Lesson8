@@ -2,15 +2,23 @@ body{
     background-color: #C6D5FF;
 }
 header{
+    width:1920px;
     border:1px solid #707070;
     height: 98px;
-    margin:35px 95px 0px 45px;
+    margin:35px 95px 100px 45px;
     background-color: #C6D5FF;
+    box-shadow: #4D4F5C;
+}
+.active{
+    color: #A00000;
 }
 .logo{
     width: 63px;
     height: 90px;
     padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
 }
 .navBar{
     float: right;
@@ -18,17 +26,23 @@ header{
     margin-top: 20px;
     margin-right: 90px;
     margin-bottom: 100px;
+    box-shadow:#4D4F5C;
 }
 .nav-li{
     display: inline-block;
     padding:20px 40px;
     margin-right: 100px;
+    font-weight: bold;
+}
+.active{
+    color: #A00000;
+}
+.navBar a{
+    color: #000000;
 }
 .cover{
-    height: 450px;
+    margin-left: 50px;
     object-fit: cover;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 .title{
     font-size: 40px;
@@ -62,4 +76,47 @@ header{
     font-size: 20px;
     margin-left: 780px;
     margin-top: 35px;
+}
+.flex{
+    display: flex;
+}
+.article2{
+    padding-top: 89px;
+    margin-left: 80px;
+}
+.float{
+    margin-top: 117px;
+    width:1820px;
+    margin-left: 50px;
+}
+.floatImage{
+    float: left;
+    margin-right: 20px;
+}
+.float .floatText{
+    width: 900px;
+    height: 997px;
+    font-size: 15px;
+    line-height: 17px;
+    color: #7C7C91;
+    margin-bottom: 150px;
+}
+.float::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+footer{
+    width:1920px;
+    background-color: #7F8094;
+    height:117px;
+    margin-left:50px;
+    margin-top: 150px;
+}
+ul li{
+    float:right;
+}
+li{
+    padding-top: 35px;
+    margin-right: 25px;
 }
